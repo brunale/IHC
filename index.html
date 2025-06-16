@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo dos Pudins</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5e6;
+            color: #333;
+        }
+        
+        header {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        nav {
+            background-color: #a0522d;
+            padding: 1rem;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .destaque {
+            background-color: #f9e4b7;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+        
+        .receitas {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .receita {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .receita img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .receita-conteudo {
+            padding: 1rem;
+        }
+        
+        footer {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mundo dos Pudins</h1>
+        <p>Tudo sobre essa delícia cremosa que conquista corações</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#receitas">Receitas</a></li>
+            <li><a href="#historia">História</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="inicio" class="destaque">
+            <h2>Bem-vindo ao Mundo dos Pudins!</h2>
+            <p>O pudim é uma sobremesa clássica e amada em todo o mundo. Neste site, você encontrará receitas deliciosas, dicas de preparo e a história dessa maravilha cremosa que faz sucesso em qualquer ocasião.</p>
+        </section>
+        
+        <section id="receitas">
+            <h2>Receitas Populares</h2>
+            <div class="receitas">
+                <article class="receita">
+                    <img src="https://via.placeholder.com/300x200?text=Pudim+de+Leite" alt="Pudim de Leite">
+                    <div class="receita-conteudo">
+                        <h3>Pudim de Leite Condensado</h3>
+                        <p>O clássico brasileiro que todo mundo ama. Cremoso e com aquele caramelo perfeito.</p>
+                        <a href="#">Ver receita</a>
+                    </div>
+                </article>
+                
+                <article class="receita">
+                    <img src="https://via.placeholder.com/300x200?text=Pudim+de+Pão" alt="Pudim de Pão">
+                    <div class="receita-conteudo">
+                        <h3>Pudim de Pão</h3>
+                        <p>Uma versão econômica e deliciosa para aproveitar pães amanhecidos.</p>
+                        <a href="#">Ver receita</a>
+                    </div>
+                </article>
+                
+                <article class="receita">
+                    <img src="https://via.placeholder.com/300x200?text=Pudim+de+Chocolate" alt="Pudim de Chocolate">
+                    <div class="receita-conteudo">
+                        <h3>Pudim de Chocolate</h3>
+                        <p>Para os chocólatras de plantão, uma versão irresistível do pudim tradicional.</p>
+                        <a href="#">Ver receita</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <section id="historia" class="destaque">
+            <h2>História do Pudim</h2>
+            <p>O pudim tem uma história rica que remonta à Roma Antiga, onde era preparado com mel. Ao longo dos séculos, a receita evoluiu e se espalhou pelo mundo, ganhando variações regionais. No Brasil, o pudim de leite condensado se tornou um ícone da culinária doce, especialmente após a popularização do leite condensado no século XX.</p>
+        </section>
+    </main>
+    
+    <footer id="contato">
+        <p>© 2023 Mundo dos Pudins - Todos os direitos reservados</p>
+        <p>Contato: contato@mundodospudins.com</p>
+    </footer>
+</body>
+</html>
